@@ -20,7 +20,7 @@ body{
 .trip_bg{
     width: 100%;
     height: 600px;
-    background-image: url(./trip\ img.jpg);
+    background-image: url(../images/trip\ img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

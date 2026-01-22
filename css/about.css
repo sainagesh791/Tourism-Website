@@ -38,7 +38,7 @@ body{
     align-items: center;
 }
 .d1-2{
-    background-image: url(./aboutus-image.webp);
+    background-image: url(../images/aboutus-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }

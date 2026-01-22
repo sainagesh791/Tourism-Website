@@ -42,7 +42,7 @@ body{
     width: 100%;
     height: 45%;
     display: flex;
-    background-image: url(./stay-img1.jpeg);
+    background-image: url(../images/stay-img1.jpeg);
     transition: all 0.9s;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -53,19 +53,19 @@ body{
     transform: scale(1.2);
 }
 .d1-2-1{
-    background-image: url(./stay-img2.jpeg);
+    background-image: url(../images/stay-img2.jpeg);
 }
 .d1-3-1{
-    background-image: url(./stay-img3.jpeg);
+    background-image: url(../images/stay-img3.jpeg);
 }
 .d2-1-1{
-    background-image: url(./stay-img4.jpeg);
+    background-image: url(../images/stay-img4.jpeg);
 }
 .d2-2-1{
-    background-image: url(./stay-img3.jpeg);
+    background-image: url(../images/stay-img3.jpeg);
 }
 .d2-3-1{
-    background-image: url(./stay-img6.jpeg);
+    background-image: url(../images/stay-img6.jpeg);
 }
 .d1-1-2,.d1-2-2,.d1-3-2,.d2-1-2,.d2-2-2,.d2-3-2{
     width: 100%;
