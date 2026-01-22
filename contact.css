@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+.parent{
+    background-color:rgba(165, 42, 42, 0.073);
+    width: 100%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+}
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+}
+.c_h5{
+    color: brown;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.c_p{
+    font-size: 20px;
+    margin-left: 10%;
+    text-align: justify;
+    line-height: 30px;
+}
+.c_a{
+    color: blue;
+    font-size: 100%;
+}
+.c_map{
+    width: 50%;
+    height: 300px;
+    margin-left: 10%;
+}
+.c_share{
+    width: 40%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.c_icon{
+    font-size: 20px;
+    margin-left: 2%;
+    color: black;
+}

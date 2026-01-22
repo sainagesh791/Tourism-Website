@@ -1,0 +1,44 @@
+
+body{
+    margin: 0px;
+}
+.navbar
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(84, 52, 30, 0.841);
+}
+.links{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+.logbtn{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+.logbtn:hover{
+    background-color: black;
+    color: white;
+}
+.link:hover{
+    color: white;
+    font-size: 20px;
+}
