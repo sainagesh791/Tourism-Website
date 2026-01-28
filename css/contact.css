@@ -51,3 +51,103 @@ body{
     margin-left: 2%;
     color: black;
 }
+
+/* Tablet & Medium Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .contact{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .c_h5{
+        margin-left: 5%;
+    }
+    
+    .c_p{
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 25px;
+    }
+    
+    .c_map{
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+    }
+    
+    .c_share{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    
+    .c_icon{
+        font-size: 18px;
+    }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .contact{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .c_h5{
+        margin-left: 5%;
+        font-size: 16px;
+    }
+    
+    .c_p{
+        font-size: 14px;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 22px;
+        text-align: left;
+    }
+    
+    .c_a{
+        font-size: 90%;
+    }
+    
+    .c_map{
+        width: 95%;
+        height: 200px;
+        margin-left: 2.5%;
+    }
+    
+    .c_share{
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        padding: 15px 0;
+    }
+    
+    .c_icon{
+        font-size: 16px;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+}
+
+/* Extra Small Devices (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .c_h5{
+        font-size: 14px;
+    }
+    
+    .c_p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .c_map{
+        height: 180px;
+    }
+    
+    .c_icon{
+        font-size: 14px;
+    }
+}

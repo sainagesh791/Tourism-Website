@@ -42,3 +42,87 @@ body{
     color: white;
     font-size: 20px;
 }
+
+/* Tablet & Medium Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .navbar{
+        height: 50px;
+    }
+    
+    .links{
+        width: 85%;
+        gap: 15px;
+    }
+    
+    .link{
+        font-size: 13px;
+    }
+    
+    .link:hover{
+        font-size: 15px;
+    }
+    
+    .logbtn{
+        height: 28px;
+        width: 55px;
+        font-size: 13px;
+    }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .navbar{
+        height: 45px;
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+    
+    .links{
+        width: 90%;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+    
+    .link{
+        font-size: 11px;
+        padding: 5px;
+    }
+    
+    .link:hover{
+        font-size: 12px;
+    }
+    
+    .logbtn{
+        height: 25px;
+        width: 50px;
+        font-size: 11px;
+        padding: 0 5px;
+    }
+}
+
+/* Extra Small Devices (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .navbar{
+        height: 40px;
+        flex-direction: row;
+    }
+    
+    .links{
+        width: 100%;
+        gap: 8px;
+    }
+    
+    .link{
+        font-size: 10px;
+    }
+    
+    .link:hover{
+        font-size: 11px;
+    }
+    
+    .logbtn{
+        height: 22px;
+        width: 45px;
+        font-size: 10px;
+    }
+}

@@ -71,3 +71,108 @@ body{
     color: white;
     transition: all 0.9s;
 }
+
+/* Tablet & Medium Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .trip_h1{
+        font-size: 40px;
+        margin-left: 5%;
+    }
+    
+    .trip_p{
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+        line-height: 25px;
+    }
+    
+    .trip_bg{
+        height: 400px;
+    }
+    
+    .trip_div{
+        width: 25%;
+        height: 10%;
+        margin-left: 5%;
+    }
+    
+    .trip_div:hover{
+        width: 25%;
+        margin-left: 5%;
+    }
+    
+    .trip_div_p{
+        font-size: 100%;
+    }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .trip{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .trip_bg{
+        height: 300px;
+    }
+    
+    .trip_h1{
+        font-size: 28px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    
+    .trip_p{
+        font-size: 14px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 22px;
+        text-align: left;
+    }
+    
+    .trip_div{
+        width: 50%;
+        height: 12%;
+        margin-left: 5%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .trip_div:hover{
+        width: 50%;
+        margin-left: 5%;
+    }
+    
+    .trip_div_p{
+        font-size: 90%;
+    }
+}
+
+/* Extra Small Devices (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .trip_bg{
+        height: 250px;
+    }
+    
+    .trip_h1{
+        font-size: 22px;
+        margin-left: 5%;
+    }
+    
+    .trip_p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .trip_div{
+        width: 60%;
+        margin-left: 5%;
+    }
+    
+    .trip_div:hover{
+        width: 60%;
+        margin-left: 5%;
+    }
+}

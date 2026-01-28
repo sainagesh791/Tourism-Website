@@ -76,3 +76,64 @@ body{
     align-items: center;
     background-color: white;
 }
+
+/* Tablet & Medium Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .d1, .d2{
+        flex-direction: row;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .d1-1, .d1-2, .d1-3, .d2-1, .d2-2, .d2-3{
+        width: calc(50% - 8px);
+        height: 250px;
+    }
+    
+    .d1-1-1, .d1-2-1, .d1-3-1, .d2-1-1, .d2-2-1, .d2-3-1{
+        height: 50%;
+    }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .stay{
+        padding: 10px;
+    }
+    
+    .d1, .d2{
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 10px 0;
+        justify-content: center;
+    }
+    
+    .d1-1, .d1-2, .d1-3, .d2-1, .d2-2, .d2-3{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .d1-1-1, .d1-2-1, .d1-3-1, .d2-1-1, .d2-2-1, .d2-3-1{
+        height: 48%;
+    }
+    
+    .d1-1-2, .d1-2-2, .d1-3-2, .d2-1-2, .d2-2-2, .d2-3-2{
+        height: 52%;
+    }
+}
+
+/* Extra Small Devices (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .d1, .d2{
+        padding: 8px 0;
+        gap: 10px;
+    }
+    
+    .d1-1, .d1-2, .d1-3, .d2-1, .d2-2, .d2-3{
+        width: 100%;
+        height: 180px;
+    }
+}
